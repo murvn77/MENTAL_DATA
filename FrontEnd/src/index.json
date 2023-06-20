@@ -1,0 +1,20 @@
+{
+    "name": "mentalData",
+    "short name": "mDApp",
+    "start_url": "./html/index.html",
+    "display": "standalone",
+    "background-color": "rgba(20, 115, 220, 0.1)",
+    "icons": [
+        {
+            "src": "./assets/img/icono.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        }
+    ],
+    "description": "Aplicación para salud mental",
+    "orientation": "portrait",
+    "scope": "/",
+    "serviceworker": {
+        "src": "./assets/sw.js"
+    }
+} 

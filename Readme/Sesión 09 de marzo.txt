@@ -1,0 +1,122 @@
+var mensaje="Ya direccioné archivos en html";
+
+/*Despliego un mensaje de alerta en el navegador*/
+// alert(mensaje)
+
+/*Impresión en la consola del navegador*/
+console.log(mensaje)
+
+/*El contexto del código*/
+/*var a = 10, i
+
+function imprimirNumeros() {
+  var b = 5	
+  for (i=0; i<10; i++) {
+    i = i + b  
+    console.log(i)
+  }
+}
+
+b = i
+console.log(b)
+
+imprimirNumeros()
+*/
+
+
+/* Agregando un atributo a un objeto ya definido */
+/* let persona = {
+  nombre: "Mauren",
+  edad: 20
+}
+
+console.log(persona)
+
+persona.direccion="Cra. 154 # 132A - 10"
+
+console.log(persona)*/
+
+
+/* Captura de errores y que el programa continúe con el ciclo de ejecución 
+try {
+  var a = 10, i
+
+  function imprimirNumeros() {
+    var b = 5	
+    for (i=0; i<10; i++) {
+      i = i + b  
+    } 
+    return i
+  }
+  b = b + imprimirNumeros()
+  console.log(b)
+} catch (error) {
+  console.log("Tengo un error: " + error)
+} finally {
+  
+}
+*/
+
+
+/* Switch case con conversión del dato de entrada */
+/*let entrada = parseInt(prompt("Ingrese el número del día: "))
+
+switch (entrada) {
+  case 1:
+    alert("Lunes")
+  break;
+
+  case 2:
+    alert("Martes")
+  break;
+
+  case 3:
+    alert("Miércoles")
+  break;
+
+  case 4:
+    alert("Jueves")
+  break;
+
+  case 5:
+    alert("Viernes")
+  break;
+
+  default: 
+    alert("Sólo pueden ser números del 1 al 5")
+  break;
+}
+
+let a = 3 + entrada;
+
+alert(a)
+*/
+
+let numeros = [1,2,3,4,5]
+let uno, dos, tres, cuatro, cinco
+
+uno = numeros[0]
+dos = numeros[1]
+tres = numeros[2]
+cuatro = numeros[3]
+cinco = numeros[4]
+
+console.log(uno, dos, tres, cuatro, cinco)
+
+
+/*Desestructuación de objetos*/
+
+let numeros2 = [6,7,8,9,10]
+
+const[seis, siente, ocho, nueve, diez]=numeros2
+console.log(seis, siente, ocho, nueve, diez)
+
+let persona2 = {
+  nombre: "Maurencita",
+  apellido: "Rivera",
+  edad: 20
+}
+
+let{nombre, apellido} = persona2
+
+console.log(nombre, apellido)
